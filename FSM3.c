@@ -48,7 +48,7 @@ int main (void)
             state = 0;
         }
         
-        function[state]();
+        function[state]();    //函数指针数组的使用
         state++;
         
     }   
